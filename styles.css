@@ -1,0 +1,127 @@
+body {
+    background-color: #0a2a5e;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 400px;
+}
+
+h1, p, label, a {
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.toggle-buttons button {
+    border-radius: 0;
+}
+
+.toggle-buttons button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    cursor: pointer;
+    flex: 1;
+}
+
+.toggle-buttons .active {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #0a2a5e;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="email"],
+input[type="password"] {
+    margin: 15px 0;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #0a2a5e;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+input[type="text"] {
+    margin: 15px 0;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    transition: border-color 0.3s;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+
+button[type="submit"] {
+    background-color: #fff;
+    color: #0a2a5e;
+    border: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #f0f0f0;
+    color: #083a8a;
+}
+
+.login-container:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+} 

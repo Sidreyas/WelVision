@@ -1,0 +1,128 @@
+body {
+    background-color: #0a2a5e;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0a2a5e;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.camera-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.camera {
+    width: 49%;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.camera-header, .camera-footer {
+    background-color: #666;
+    color: #fff;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+
+.camera-feed {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.control-panel {
+    background-color: #0a2a5e;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.control-panel h2 {
+    margin-top: 0;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.slider label {
+    flex: 1;
+}
+
+.slider input {
+    flex: 2;
+    margin: 0 10px;
+}
+
+.slider span {
+    flex: 1;
+    text-align: right;
+}
+
+.inspection-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.inspection-box {
+    width: 48%;
+    height: 160px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.inspection-header {
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: -10px -10px 0 -10px;
+    width: calc(100% + 20px);
+    box-sizing: border-box;
+}
+
+.inspection-box hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 10px 0 0 0;
+    text-align: left;
+}
+
+li {
+    margin: 5px 0;
+}
